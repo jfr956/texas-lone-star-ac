@@ -1,104 +1,733 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Texas Lone Star AC & Heating LLC – HVAC Experts in the Rio Grande Valley</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Trusted HVAC services across the Rio Grande Valley. Learn more about Texas Lone Star AC & Heating LLC and what sets us apart.">
-  <link rel="canonical" href="https://jfr956.github.io/texas-lone-star-ac/">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Best AC Repair in the Rio Grande Valley | Texas Lone Star AC &amp; Heating</title>
+<meta content="Best AC repair in Harlingen, TX. 24/7 emergency service, licensed technicians, same-day repairs. Serving Rio Grande Valley since 2020. Visit our website for service." name="description"/>
+<meta content="AC repair Harlingen, air conditioning repair Harlingen TX, HVAC repair Harlingen, emergency AC repair, best AC repair Harlingen" name="keywords"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .cta {
-      background-color: #f0f0f0;
-      padding: 15px;
-      margin: 30px 0;
-      text-align: center;
-    }
-  </style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "@id": "https://jfr956.github.io/texas-lone-star-ac/#organization",
-    "name": "Texas Lone Star AC & Heating LLC",
-    "url": "https://jfr956.github.io/texas-lone-star-ac/",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brownsville",
-      "addressRegion": "TX"
-    },
-    "sameAs": [
-      "https://www.google.com/maps?cid=1003965735745649222"
-    ],
-    "areaServed": {
-      "@type": "Place",
-      "name": "Rio Grande Valley"
-    },
-    "serviceType": "AC installation, AC repair, heating maintenance, and HVAC inspections"
-  }
-  </script>
-</head>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: #041F3B;
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+            max-width: 280px;
+        }
+
+        .header-contact {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .phone-number {
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .emergency-badge {
+            background: #CA130F;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(4, 31, 59, 0.95), rgba(4, 31, 59, 0.95)), 
+                        linear-gradient(45deg, #041F3B, #CA130F);
+            color: white;
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .hero .description {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: #CA130F;
+            color: #FFFFFF;
+            box-shadow: 0 4px 15px rgba(202, 19, 15, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            background: #A00F0B;
+            box-shadow: 0 6px 20px rgba(202, 19, 15, 0.6);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #041F3B;
+        }
+
+        /* Trust Indicators */
+        .trust-section {
+            background: white;
+            padding: 40px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .trust-indicators {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .trust-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .trust-item i {
+            font-size: 2.5rem;
+            color: #041F3B;
+        }
+
+        .trust-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #041F3B;
+        }
+
+        .trust-item p {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #041F3B;
+            margin-bottom: 15px;
+        }
+
+        .section-title p {
+            font-size: 1.1rem;
+            color: #6b7280;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .service-card i {
+            font-size: 3rem;
+            color: #CA130F;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #041F3B;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #6b7280;
+            margin-bottom: 20px;
+        }
+
+        .service-card .btn {
+            font-size: 1rem;
+            padding: 12px 25px;
+        }
+
+        /* Why Choose Us */
+        .why-choose {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: #041F3B;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            margin: 0 auto 20px;
+        }
+
+        .feature-icon i {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .feature-item h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #041F3B;
+            margin-bottom: 15px;
+        }
+
+        /* Emergency Section */
+        .emergency {
+            background: #CA130F;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .emergency h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .emergency p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .emergency-phone {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+        }
+
+        .emergency-phone:hover {
+            background: #041F3B;
+            transform: scale(1.05);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .stars {
+            color: #fbbf24;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            color: #4b5563;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        /* Footer */
+        footer {
+            background: #041F3B;
+            color: white;
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .footer-section h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .footer-section p, .footer-section li {
+            color: #d1d5db;
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: #d1d5db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #fbbf24;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            margin-top: 40px;
+            padding-top: 20px;
+            text-align: center;
+            color: #9ca3af;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .header-contact {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .emergency-phone {
+                font-size: 2rem;
+            }
+        }
+
+        /* Floating Action Button */
+        .fab {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(45deg, #fbbf24, #f59e0b);
+            color: #1f2937;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(251, 191, 36, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .fab:hover {
+            transform: translateY(-5px) scale(1.1);
+            background: #A00F0B;
+            box-shadow: 0 8px 30px rgba(202, 19, 15, 0.5);
+        }
+    </style>
+<link href="https://jfr956.github.io/texas-lone-star-ac/" rel="canonical"/></head>
 <body>
-  <header>
-    <h1>Reliable Heating and Cooling for the Rio Grande Valley</h1>
-    <h2>Texas Lone Star AC & Heating LLC</h2>
-  </header>
-
-  <p>Texas Lone Star AC & Heating LLC is your trusted HVAC partner in Brownsville and the greater Rio Grande Valley. With years of experience and a commitment to customer satisfaction, we specialize in delivering fast, professional, and reliable heating and cooling services for both residential and commercial clients.</p>
-
-  <h3>Our HVAC Services</h3>
-  <ul>
-    <li>AC installation and replacement for homes and offices</li>
-    <li>Air conditioning repair and seasonal tune-ups</li>
-    <li>Heating system maintenance and furnace diagnostics</li>
-    <li>Energy efficiency inspections and upgrades</li>
-    <li>Indoor air quality solutions and filter replacements</li>
-    <li>Emergency HVAC service — available 24/7</li>
-  </ul>
-
-  <h3>Why Homeowners in the Rio Grande Valley Choose Us</h3>
-  <p>Our team is fully licensed, insured, and background-checked. We pride ourselves on clear communication, transparent pricing, and honest recommendations. From Harlingen to McAllen, and all throughout the Valley, Texas Lone Star AC & Heating LLC is the name you can count on for indoor comfort all year long.</p>
-
-  <h3>About Texas Lone Star AC & Heating LLC</h3>
-  <p>Founded on a belief in quality craftsmanship and dependable service, we’ve built our reputation by treating our clients like family. Our locally owned business understands the unique needs of homes and buildings in South Texas — from hot summer days to cooler winter nights, we’re here to keep your systems running smoothly.</p>
-
-  <div class="cta">
-    <p><strong>Need fast, reliable AC or heating service?</strong></p>
-    <p><a href="https://www.txlonestaracandheating.com/texas-lone-star-ac-and-heating-llc" target="_blank">Visit our official website to book your service</a></p>
-  </div>
-
-  <p>Want to learn more about our location and community involvement? 
-    <a href="https://www.google.com/maps?cid=1003965735745649222" target="_blank">Find us on Google Maps</a>.
-  </p>
-
-  <footer style="text-align: center; padding: 20px 0;">
-    <p><strong>Texas Lone Star AC & Heating LLC</strong></p>
-    <div style="display: flex; justify-content: center; gap: 15px; margin-top: 10px;">
-      <a href="https://txlonestaracandheating.com" target="_blank" rel="noopener" title="Official Website">
-        <img src="https://cdn-icons-png.flaticon.com/512/3916/3916639.png" alt="Website Icon" width="32" height="32">
-      </a>
-      <a href="https://www.facebook.com/texaslonestarac" target="_blank" rel="noopener" title="Facebook">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook Icon" width="32" height="32">
-      </a>
-      <a href="https://www.youtube.com/@txlsac" target="_blank" rel="noopener" title="YouTube">
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Icon" width="32" height="32">
-      </a>
-      <a href="https://www.tiktok.com/@txlonestarac" target="_blank" rel="noopener" title="TikTok">
-        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok Icon" width="32" height="32">
-      </a>
-    </div>
-  </footer>
-</body>
-</html>
+<!-- Header -->
+<header>
+<div class="container">
+<div class="header-content">
+<div class="logo">
+<img alt="Texas Lone Star AC &amp; Heating LLC" src="./Untitled design - 2025-07-01T102746.381.png"/>
+</div>
+<div class="header-contact">
+<div class="emergency-badge">24/7 Emergency</div>
+<a class="phone-number" href="https://www.texaslonestaracandheating.com">
+<i class="fas fa-globe"></i>
+                        Visit Our Site
+                    </a>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero">
+<div class="container">
+<h1>Best AC Repair in the Rio Grande Valley</h1>
+<p class="subtitle">Fast, Reliable, Professional Service</p>
+<p class="description">
+                When your AC breaks down in the Texas heat, you need the best AC repair service in the Rio Grande Valley. 
+                Our licensed technicians provide same-day repairs, 24/7 emergency service, and guaranteed satisfaction.
+            </p>
+<div class="cta-buttons">
+<a class="btn btn-primary" href="https://www.texaslonestaracandheating.com">
+<i class="fas fa-globe"></i>
+                    Visit Our Website
+                </a>
+<a class="btn btn-secondary" href="#services">
+<i class="fas fa-wrench"></i>
+                    Our Services
+                </a>
+</div>
+</div>
+</section>
+<!-- Trust Indicators -->
+<section class="trust-section">
+<div class="container">
+<div class="trust-indicators">
+<div class="trust-item">
+<i class="fas fa-clock"></i>
+<h3>Same Day Service</h3>
+<p>Quick response times</p>
+</div>
+<div class="trust-item">
+<i class="fas fa-certificate"></i>
+<h3>Licensed &amp; Insured</h3>
+<p>TACLA00098106E</p>
+</div>
+<div class="trust-item">
+<i class="fas fa-star"></i>
+<h3>Top Rated Service</h3>
+<p>4.7/5 stars on Google</p>
+</div>
+<div class="trust-item">
+<i class="fas fa-shield-alt"></i>
+<h3>100% Satisfaction</h3>
+<p>Guaranteed workmanship</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="services" id="services">
+<div class="container">
+<div class="section-title">
+<h2>AC Repair Services in the Rio Grande Valley</h2>
+<p>Professional HVAC repair services for residential and commercial properties throughout the Rio Grande Valley and the Rio Grande Valley</p>
+</div>
+<div class="services-grid">
+<div class="service-card">
+<i class="fas fa-tools"></i>
+<h3>Emergency AC Repair</h3>
+<p>24/7 emergency AC repair service in the Rio Grande Valley. No matter when your AC breaks down, we're here to help.</p>
+<a class="btn btn-primary" href="https://www.texaslonestaracandheating.com">Learn More</a>
+</div>
+<div class="service-card">
+<i class="fas fa-wrench"></i>
+<h3>AC System Diagnostics</h3>
+<p>Professional AC diagnostics to identify issues quickly and provide accurate repair estimates.</p>
+<a class="btn btn-primary" href="https://www.texaslonestaracandheating.com">Learn More</a>
+</div>
+<div class="service-card">
+<i class="fas fa-cogs"></i>
+<h3>AC Maintenance</h3>
+<p>Regular AC maintenance to prevent breakdowns and keep your system running efficiently.</p>
+<a class="btn btn-primary" href="https://www.texaslonestaracandheating.com">Learn More</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="why-choose">
+<div class="container">
+<div class="section-title">
+<h2>Why We're the Best AC Repair in the Rio Grande Valley</h2>
+<p>Discover what makes Texas Lone Star AC &amp; Heating the top choice for AC repair in the Rio Grande Valley</p>
+</div>
+<div class="features-grid">
+<div class="feature-item">
+<div class="feature-icon">
+<i class="fas fa-user-graduate"></i>
+</div>
+<h3>Certified Technicians</h3>
+<p>Our team consists of licensed, certified HVAC technicians with years of experience in AC repair.</p>
+</div>
+<div class="feature-item">
+<div class="feature-icon">
+<i class="fas fa-rocket"></i>
+</div>
+<h3>Fast Response Time</h3>
+<p>We provide same-day service and emergency repairs to get your AC working quickly.</p>
+</div>
+<div class="feature-item">
+<div class="feature-icon">
+<i class="fas fa-dollar-sign"></i>
+</div>
+<h3>Upfront Pricing</h3>
+<p>Transparent, honest pricing with no hidden fees. You'll know the cost before we start work.</p>
+</div>
+<div class="feature-item">
+<div class="feature-icon">
+<i class="fas fa-award"></i>
+</div>
+<h3>Quality Guarantee</h3>
+<p>We stand behind our work with a satisfaction guarantee on all AC repair services.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Emergency Section -->
+<section class="emergency">
+<div class="container">
+<h2>AC Emergency in the Rio Grande Valley?</h2>
+<p>Don't suffer in the heat! Contact the best AC repair service in the Rio Grande Valley for immediate assistance.</p>
+<a class="emergency-phone" href="https://www.texaslonestaracandheating.com">Visit Our Website</a>
+<p>Available 24 hours a day, 7 days a week</p>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="testimonials">
+<div class="container">
+<div class="section-title">
+<h2>What Our the Rio Grande Valley Customers Say</h2>
+<p>Real reviews from satisfied customers in the Rio Grande Valley and the Rio Grande Valley</p>
+</div>
+<div class="testimonials-grid">
+<div class="testimonial-card">
+<div class="stars">★★★★★</div>
+<p class="testimonial-text">
+                        "After several unsuccessful attempts to have another company inspect our HVAC system, I contacted Texas Lone Star, and I'm glad I did. It was refreshing to communicate with a well-organized and professional company."
+                    </p>
+<div class="testimonial-author">- Crys E.</div>
+</div>
+<div class="testimonial-card">
+<div class="stars">★★★★★</div>
+<p class="testimonial-text">
+                        "Team was very communicative throughout the whole process and worked day and night to get my install complete. The guys cleaned up after as well and made sure everything was running good."
+                    </p>
+<div class="testimonial-author">- Jose Hernandez</div>
+</div>
+<div class="testimonial-card">
+<div class="stars">★★★★★</div>
+<p class="testimonial-text">
+                        "Responsible, clean and honest. Called to get a quote, was reasonable so I proceeded with their service and in 2 days the job was done. Highly recommended."
+                    </p>
+<div class="testimonial-author">- Yadira Sandoval</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="footer-section">
+<h3>Contact Information</h3>
+<p><i class="fas fa-map-marker-alt"></i> 20 E Elizabeth St STE A &amp; B<br/>Brownsville, TX 78520</p>
+<p><i class="fas fa-globe"></i> <a href="https://www.texaslonestaracandheating.com" style="color: #d1d5db;">Visit Our Website</a></p>
+<p><i class="fas fa-envelope"></i> info@txlonestaracandheating.com</p>
+<p><i class="fas fa-certificate"></i> License: TACLA00098106E</p>
+<p><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps?cid=1003965735745649222" target="_blank">Get Directions</a></p></div>
+<div class="footer-section">
+<h3>Services</h3>
+<ul>
+<li><a href="#">AC Repair</a></li>
+<li><a href="#">Emergency AC Repair</a></li>
+<li><a href="#">AC Installation</a></li>
+<li><a href="#">AC Maintenance</a></li>
+<li><a href="#">HVAC Services</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Service Areas</h3>
+<ul>
+<li><a href="#">Brownsville</a></li>
+<li><a href="#">Harlingen</a></li>
+<li><a href="#">McAllen</a></li>
+<li><a href="#">Edinburg</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Business Hours</h3>
+<p><strong>Service Hours:</strong><br/>24 hours a day, 7 days a week</p>
+<p><strong>Emergency Service:</strong><br/>Available around the clock</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2025 Texas Lone Star AC &amp; Heating LLC. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<!-- Floating Action Button -->
+<a class="fab" href="https://www.texaslonestaracandheating.com" title="Visit Website">
+<i class="fas fa-globe"></i>
+</a>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "texas-lone-star-handoff",
+  "name": "Texas Lone Star AC & Heating LLC",
+  "url": "https://www.texaslonestaracandheating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "20 E Elizabeth St STE A & B",
+    "addressLocality": "Brownsville",
+    "addressRegion": "TX",
+    "postalCode": "78520",
+    "addressCountry": "US"
+  },
+  "telephone": "(956) 621-0541",
+  "openingHours": [
+    "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59"
+  ],
+  "sameAs": [
+    "https://www.google.com/maps?cid=1003965735745649222"
+  ]
+}</script></body>
+</html> 
